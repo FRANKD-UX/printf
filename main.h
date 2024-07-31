@@ -114,10 +114,18 @@ char buffer[],
 int is_printable(char);
 int append_hexa_code(char, char[], int);
 int is_digit(char);
+<<<<<<< HEAD
+
+long int convert_size_number(long int num, int size);
+long int convert_size_unsgnd(unsigned long int num, int size);
+=======
+>>>>>>> 3475b8a737f84c15a1583eacd7bdc37c8de4467f
 
 long int convert_size_number(long int num, int size);
 long int convert_size_unsgnd(unsigned long int num, int size);
 
-#endif /* MAIN_H */
+<<<<<<< HEAD
 
-
+=======
+#endif
+>>>>>>> 3475b8a737f84c15a1583eacd7bdc37c8de4467f
